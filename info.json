@@ -6,12 +6,11 @@
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
-        "command": true,
-        "console": true,
+        "command": false,
+        "console": false,
         "extrakey": true,
-        "mousekey": true,
-        "encoder": true,
-        "nkro": true
+        "mousekey": false,
+        "nkro": false
     },
     "matrix_pins": {
         "cols": ["GP9", "GP8", "GP7"],
